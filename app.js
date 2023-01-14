@@ -1,5 +1,16 @@
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/twenty48/sw.js')
-      .then(reg => console.log('service worker registered'))
-      .catch(err => console.log('service worker not registered', err))
+window.addEventListener('load', e => {
+  
+    registerSW(); 
+  });
+  
+  async function registerSW() { 
+    if ('serviceWorker' in navigator) { 
+      try {
+        await navigator.serviceWorker.register('./sw.js'); 
+      } catch (e) {
+        alert('ServiceWorker registration failed. Sorry about that.'); 
+      }
+    } else {
+      document.querySelector('.alert').removeAttribute('hidden'); 
+    }
   }
