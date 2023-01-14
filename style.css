@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600&display=swap');
+
+:root {
+    --theme-color:#416ee0;
+}
+
+*    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+
+body {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #000;
+    background-image: url(img/bg.png);
+    
+    background-position: 70%;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(70, 70, 70); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--theme-color); 
+  }
+
+.container {
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
+    margin: auto;
+    padding: 20px;
+    min-width: 340px;
+    border-radius: 12px;
+}
+
+/*                  COVER                 */
+
+.cover-cont {
+    width: 100%;
+    height: 130px;
+    margin: auto;
+    /* background-color: rgb(255, 169, 58); */
+    border-radius: 16px;
+}
+
+
+
+/*                  COVER                 */
+
+/*                  NAME                 */
+
+.name-cont {
+    width: 100%;
+    /* background-color: rgba(8, 124, 24, 0.315); */
+    margin-bottom: 10px;
+    /* margin-top: -50px; */
+    padding-top:10px;
+    overflow: hidden;
+}
+
+.dp {
+    display: flex;
+    width: 100px;
+    margin: auto;
+    margin-bottom: 18px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+
+}
+
+.verified {
+    width: 20px;
+}
+
+.sub-title {
+    text-align: center;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 1;
+    color: #fff;
+    margin-top: 6px;
+}
+
+.address {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: var(--theme-color);
+    margin-top: 14px;
+}
+
+.address-det {
+    text-align: center;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1;
+    color: #fff;
+    margin-top: 8px;
+}
+
+/*                  NAME                 */
+
+/*                  CONTACT DETAILS                 */
+
+.contact-btn-cont {
+    width: 100%;
+    margin: auto;
+    /* background-color: blue; */
+    margin-bottom: 6px;
+}
+
+.ec-btn {
+    display: flex;
+    margin-top: 24px;
+}
+
+.email-btn-cont {
+    width: 50%;
+    padding-right: 6px;
+}
+
+.em-btn {
+    justify-content: center;
+    display: flex;
+    color: #000;
+    background-color: #7bff86;
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+.em-btn:hover {
+    background-color: #fff;  
+}
+
+.call-btn {
+    width: 50%;
+    padding-left: 6px;
+}
+
+.ca-btn {
+    justify-content: center;
+    display: flex;
+    color: #000;
+    background-color: #7ba0ff;
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+.ca-btn:hover {
+    background-color: #fff;  
+}
+
+.visit-btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.vc-btn-cont {
+    width: 100%;
+}
+
+.vc-btn {
+    justify-content: center;
+    display: flex;
+    color: #fff;
+    /* background-color: #c3f421; */
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 12px;
+}
+
+.vc-btn:hover {
+    background: rgb(44, 44, 44);
+}
+
+/*                  CONTACT DETAILS                 */
+
+/*                  FOOTER BANNER                 */
+
+.footer-banner-cont {
+    display: flex;
+    width: 100%;
+    height: 120px;
+    margin: auto;
+    /* background-color: rgb(47, 2, 119); */
+}
+
+.f-banner {
+    height: 95px;
+    width: 95%;
+    background-color: rgb(44, 44, 44);
+    border-radius: 12px;
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: auto;
+    justify-content: center;
+    width: 60%;
+    max-width: 400px;
+    padding-left: 5px;
+}
+
+
+.f-banner-img {
+    margin: auto;
+    height: 100px;
+    width: 5%;
+    /* background-color: rgb(168, 78, 78); */
+    border-radius: 12px;
+}
+
+.shoe {
+    width: 140px;
+    margin-left: -125px;
+}
+
+/*                  FOOTER BANNER                 */
+
+/*                 SOCIAL FOOTER                 */
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    /* background-color: rgb(111, 0, 126); */
+    margin-bottom: 10px;
+}
+
+.pay-btn {
+    display: flex;
+    width: 40%;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.gpay {
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+}
+
+.gpay:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+.g-pay {
+    display: flex;
+    height: 25px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 11px;
+    margin-bottom: 7px;
+}
+
+.social-btn {
+    display: flex;
+    width: 60%;
+    /* background-color: aquamarine; */
+    justify-content: right;
+    margin: auto;
+}
+
+.id {
+    width: 100%;
+}
+
+.social-img {
+    display: flex;
+    width: 40px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+/*                 SOCIAL FOOTER                 */
+
+/*                 CONTAINER 2                 */
+
+
+.container-2 {
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
+    margin: auto;
+    padding: 20px;
+    min-width: 340px;
+}
+
+
+iframe {
+    margin: auto;
+    border-radius: 12px;
+    width: 100%;
+    height: 300px;
+    border: 2px solid rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 640px) {
+    .container-2 {
+        background-color: #fff;
+  }
