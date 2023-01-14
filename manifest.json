@@ -1,18 +1,22 @@
-{
-    "name": "playzone",
-    "short_name": "playzone",
-    "id": "/playzone/",
-    "start_url": "/playzone/",
+
+  {
+    "name": "PlayZone",
+    "short_name": "Playzone",
+    "start_url": ".",
     "display": "standalone",
-    "background_color": "#FFE9D2",
-    "theme_color": "#FFE1C4",
-    "orientation": "portrait-primary",
+    "background_color": "#2A3443",
+    "description": "business card",
+    "theme_color": "#2A3443",
     "icons": [
       {
-        "src": "img/logo.png",
-        "type":"image/svg+xml",
-        "purpose": "any",
-        "sizes": "48x48 72x72 96x96 128x128 152x152 192x192 384x384 256x256 512x512"
+        "src": "./img/logo.png",
+        "sizes": "1080x1080",
+        "type": "image/png"
+      },
+  {
+        "src": "./img/logo.png",
+        "sizes": "1080x1080",
+        "type": "image/png"
       }
     ]
   }
